@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "902858544537",
+    "firebase_url": "https://noticeboard-68797.firebaseio.com",
+    "project_id": "noticeboard-68797",
+    "storage_bucket": "noticeboard-68797.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902858544537:android:35cd589b0a6f277a686f08",
+        "android_client_info": {
+          "package_name": "com.project.noticeboard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902858544537-mpnfqs4u2ic1ae8j4mr2qifnqbbq3teo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.noticeboard",
+            "certificate_hash": "8c43f29a04fd9d1e353f12eccc77751334a7d519"
+          }
+        },
+        {
+          "client_id": "902858544537-iign3n0e11tful2md4r7jnqteemmgavg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFl-txJESV0WGrzX2QQ8swnXMmkfoIL8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "902858544537-iign3n0e11tful2md4r7jnqteemmgavg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
