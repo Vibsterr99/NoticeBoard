@@ -1,7 +1,8 @@
-package com.project.noticeboard;
+ package com.project.noticeboard;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -75,7 +76,7 @@ public class otherinfo extends AppCompatActivity {
 
         if (TextUtils.isEmpty(username) || TextUtils.isEmpty(college) || TextUtils.isEmpty(hostel) || TextUtils.isEmpty(uid)) {
             Toast.makeText(this, "Please Fill All Details!", Toast.LENGTH_SHORT).show();
-        } else{
+        } else {
             Map<String, Object> otherinfo = new HashMap<>();
 
             otherinfo.put(key_uid, uid);
@@ -105,27 +106,20 @@ public class otherinfo extends AppCompatActivity {
                         }
                     });
 
-            }
-
         }
+
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding=ActivityOtherinfoBinding.inflate(getLayoutInflater());
+        binding = ActivityOtherinfoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
 
-
-        GoogleSignInAccount signInAccount= GoogleSignIn.getLastSignedInAccount(this);
-        if(signInAccount!=null){
+        GoogleSignInAccount signInAccount = GoogleSignIn.getLastSignedInAccount(this);
+        if (signInAccount != null) {
             binding.name.setText(signInAccount.getDisplayName());
-
-
         }
-
-
-
-
     }
 }

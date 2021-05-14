@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NoticeBoard">
-        <activity android:name=".mainNoticeBoard"></activity>
+        <activity android:name=".mainNoticeBoard" />
         <activity android:name=".otherinfo" />
         <activity android:name=".MainActivity">
             <intent-filter>
